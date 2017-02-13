@@ -1,0 +1,150 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+	background:#660033;
+	}
+.txt{
+	font-size:1em;
+	color:#333333;
+	line-height:1.25em;
+	}
+.txt_02{
+	font-size:0.9375em;
+	color:#333333;
+	line-height:1em;
+	}
+.txt_03{
+	font-size:0.8125em;
+	color:#999999;
+	line-height:1.5em;
+	}				
+#main_01{
+	background:url(../images/main_01_bg.jpg) no-repeat fixed center center;
+	min-height:917px;
+	-moz-background-size: cover;
+    background-size: cover;
+	}
+.main_01_info{
+	width:25%;
+	
+	background:#EBDCC6;
+	float:left;
+	margin:4% 0 0 5%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding:50px 0 30px 40px;
+	position:relative;
+	
+	}	
+
+#main_02{
+	background:url(../images/main_02_bg.jpg) repeat-x 0 0;
+	min-height:550px;
+	
+	}
+.main_02_s{
+	width:1170px;
+	margin:0 auto;
+	padding:100px 0 0 0;
+	
+	}	
+.main_02_tit{
+	background:url(../images/main_02_title.jpg) no-repeat 0 0;
+	display:block;
+	width:858px;
+	height:192px;
+	margin:0 auto;
+	text-indent:-9999px;
+	}
+.t_all{
+	padding:20px 0 0 45px;
+	}	
+.t1,.t2,.t3{
+	width:30%;
+	min-height:150px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin:10px;	
+	float:left;
+	position:relative;
+	padding:45px 20px 0 110px;
+	}
+.t1{
+	background:url(../images/tit_01.png) no-repeat 20px center #ffffff;
+	}	
+.t2{
+	background:url(../images/tit_02.png) no-repeat 20px center #ffffff;
+	}
+.t3{
+	background:url(../images/tit_03.png) no-repeat 20px center #ffffff;
+	}
+.number{
+	position:absolute;
+	top:-25px;
+	left:20px;
+	}
+	
+#main_03{
+	background:#eeeeee;
+	min-height:350px;	
+	}
+	
+.main_03_s{
+	width:1170px;
+	margin:0 auto;
+	padding:50px 0 0 80px;
+	}
+.main_03_l,.main_03_r{
+	width:45%;
+	min-height:174px;
+	border:solid 1px #cccccc;
+	float:left;
+	margin:5px;
+	}
+.main_03_l{
+	background:url(../images/wechat.png) no-repeat 20px center;
+	padding:90px 0 0 170px;
+	}
+.main_03_r{
+	padding:90px 0 0 170px;
+	position:relative;
+	}
+.fb_link{
+	display:block;
+	background:url(../images/fb.png) no-repeat 0 0;
+	width:131px;
+	height:131px;
+	text-indent:-9999px;
+	position:absolute;
+	top:20px;
+	left:20px;
+	}
+a.fb_link:hover{
+	background-position:0 -131px;
+	}
+.footer{
+	width:1170px;
+	margin:auto 0;
+	padding:50px 0 0 0;
+	text-align:center;
+	}														
+.clear{
+	clear:both;
+	}		
+#sidebar {
+	width: 139px;
+	background:#eeeeee;
+	position:absolute;
+	right:0;
+	text-align:center;
+	z-index:10;
+}
+	
